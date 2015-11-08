@@ -1,0 +1,38 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Анкета</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link  rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="pic/icon.ico">
+</head>
+<body>
+<h2 id="sp-header-wrapper" > <div id="left"> <a href="index.html"  > Главная </a> </div> <div id="center1">  <a href="request.html"  >Заполнить анкету</a> </div>
+<div id="center2"> <a href="naitisoseda.html"  >Поиск соседа</a> </div> <div id="right"> <a href="FAQ.html" >FAQ</a> </div> </h2>
+ <div class="content">
+<FORM ACTION="write.php" METHOD="POST"> 
+<br><br><h3 id="mode">Анкета</h3>
+<fieldset id="fon1">
+<p><b>Заполните ВСЕ поля, пожалуйста.</b></p>
+<p><b>Имя:</b><input type="text" name="Name"></p><br>
+<p><b>Возраст:</b><input type="text" name="Year"></p><br>
+<p><b>Ссылка на страницу в соц.сетях или адрес электронной почты(для связи с вами потанциальных соседей):</b><input type="text" name="Link"></p><br>
+<p><b>Из какого вы города?</b><input type="text" name="City"></p><br>
+<p><b>Вы:</b><br><input type="radio" name="Sex" value="Женский">Жен  <input type="radio" name="Sex" value="Мужской">Муж</p><br>
+<p><b>Любите животных?</b><br><input type="radio" name="Animal" value="Любит животных">Да <br><input type="radio" name="Animal" value="Не любит животных">Нет</p><br>
+<p><b>Часто ли вы убираетесь?</b><br><input type="radio" name="Clean" value="Убирается один раз в месяц">Один раз в месяц<br><input type="radio" name="Clean" value="Убирается один раз в неделю">Один раз в неделю <br><input type="radio" name="Clean" value="Убирается более одного раза в неделю">Более одного раза в неделю<br><input type="radio" name="Clean" value="Убирается каждый день">Каждый день</p><br>
+<p><b>Любите ли готовить?</b><br><input type="radio" name="Cooking" value="Любит готовить">Да <br> <input type="radio" name="Cooking" value="Не любит готовить, но приходится ">Не люблю, но приходится<br><input type="radio" name="Cooking" value="Не любит готовить">Нет</p><br>
+<p><b>Как вы думаете, вы создаете много шума(громко слушаете музыку, громко говорите, смотрите телевизор на всей громкости)?</b>
+<br><input type="radio" name="Shoom" value="Шумный">Да <input type="radio" name="Shoom" value="Может пошуметь">Когда как <input type="radio" name="Shoom" value="Не шумный">Нет</p><br>
+<p><b>Вы курите?</b><br><input type="radio" name="Smoke" value="Курит">Да <input type="radio" name="Smoke" value="Не курит">Нет</p><br>
+<p><b>Вы пьете?</b><br><input type="radio" name="Alcohol" value="Любит выпить">Да <input type="radio" name="Alcohol" value="Иногда выпивает">Иногда <input type="radio" name="Alcohol" value="Не пьет">Нет</p><br>
+<p><b>Вы "жаворонок" или "сова"?</b><br><input type="radio" name="Sleep" value="Жаворонок">Жаворонок <input type="radio" name="Sleep" value="Сова">Сова</p><br>
+<p id="text1" name="aboutme"><b>Расскажите немного о себе(ваше хобби, что любите, что не любите):</b><br><textarea rows="10" cols="50" name="About me"></textarea rows="10" cols="50" name="About me"/></p><br>
+<p id="text1" name="aboutneiborhood"><b>Каким вы видите идеального соседа?:</b><br><textarea rows="10" cols="50" name="About neiborhood"></textarea rows="10" cols="50" name="About neiborhood"/></p><br>
+
+<P> 
+<p id="decor" ><INPUT TYPE="submit" VALUE="Отправить запрос!"> 
+</fieldset>
+</FORM> 
+</body>
+</html>

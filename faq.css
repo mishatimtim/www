@@ -1,0 +1,89 @@
+
+body {font-family: Verdana,Tahoma,Arial;
+background-image: url(http://rusforumz.com/library/template/fon/number/10-1.jpg);
+background-size:cover;
+
+
+}
+
+#sp-header-wrapper {
+     width: 1000px;
+    height: 70px;
+  border-bottom: 1px solid #D2D2D2;
+  position: relative;
+  top:0;
+  z-index: 1000;  
+  text-align:center;
+}
+
+
+p,h3{
+	font-size: 12pt;
+	margin-left:8px;
+	font-weight: normal ;
+	text-align: center;
+	margin-right:3px;
+	margin-top: 0px;
+	text-indent: 6px;
+	margin:0px;
+	padding-bottom : 1px;
+	padding-left : 4px;
+	padding-right : 4px;
+	padding-top : 1px;
+	color:#003300
+	
+}
+
+
+#jir{
+	font-weight:600;
+}
+
+
+
+#left {
+width: 150px;
+height: 30px;
+position: absolute;
+top:10px;
+left:0px;
+border: 3px solid black;
+}
+
+#right {
+width: 150px;
+height: 30px;
+position: absolute;
+top:10px;
+left:900px;
+border: 3px solid black;
+}
+#center1 {
+width: 350px;
+height: 30px;
+position: absolute;
+top:10px;
+left:180px;
+border: 3px solid black;
+}
+
+
+
+#center2 {
+width: 300px;
+height: 30px;
+position: absolute;
+top:10px;
+left:570px;
+border: 3px solid black;
+}
+
+a{text-decoration: none;
+color:#763504;
+	
+	
+	
+}
+a:visited{
+	color:#763504;
+}
